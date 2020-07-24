@@ -309,6 +309,8 @@ def get_binary_arch(binary_file):
     elif e_machine == 0x3E:
         assert ei_class == 2
         return "x86_64"
+    elif e_machine == 0xf3:
+        return "riscv64"
     elif e_machine == 0x08:
         if ei_class == 1:
             return "mips"
