@@ -343,6 +343,8 @@ def get_binary_arch(binary_file):
             return "mips"
         else:
             return "mips64"
+    elif e_machine == 0xf3:
+        return "riscv64"
     else:
         raise RuntimeError("unknown architecture: 0x{:x}".format(e_machine))
 
