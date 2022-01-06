@@ -25,6 +25,10 @@
 # packaged in the SDK.
 #
 
+# FIXME: RISC-V add back when these components are supported
+# -       bcc_compat \
+# -       llvm-rs-cc \
+
 # Host tools and java libraries that are parts of the SDK.
 PRODUCT_HOST_PACKAGES += \
 	aapt \
@@ -32,7 +36,6 @@ PRODUCT_HOST_PACKAGES += \
 	adb \
 	aidl \
 	apksigner \
-	bcc_compat \
 	bios.bin \
 	dexdump \
 	dmtracedump \
@@ -40,7 +43,6 @@ PRODUCT_HOST_PACKAGES += \
 	etc1tool \
 	hprof-conv \
 	libaapt2_jni \
-	llvm-rs-cc \
 	sqlite3 \
 	vgabios-cirrus.bin \
 	split-select \
