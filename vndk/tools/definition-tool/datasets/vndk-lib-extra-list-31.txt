@@ -12,11 +12,13 @@ VNDK-core: libclang_rt.scudo-aarch64-android.so
 VNDK-core: libclang_rt.scudo-arm-android.so
 VNDK-core: libclang_rt.scudo-i686-android.so
 VNDK-core: libclang_rt.scudo-x86_64-android.so
+VNDK-core: libclang_rt.scudo-riscv64-android.so
 
 VNDK-core: libclang_rt.scudo_minimal-aarch64-android.so
 VNDK-core: libclang_rt.scudo_minimal-arm-android.so
 VNDK-core: libclang_rt.scudo_minimal-i686-android.so
 VNDK-core: libclang_rt.scudo_minimal-x86_64-android.so
+VNDK-core: libclang_rt.scudo_minimal-riscv64-android.so
 
 VNDK-core: libclang_rt.ubsan_standalone-aarch64-android.so
 VNDK-core: libclang_rt.ubsan_standalone-arm-android.so
@@ -24,6 +26,7 @@ VNDK-core: libclang_rt.ubsan_standalone-i686-android.so
 VNDK-core: libclang_rt.ubsan_standalone-mips-android.so
 VNDK-core: libclang_rt.ubsan_standalone-mips64-android.so
 VNDK-core: libclang_rt.ubsan_standalone-x86_64-android.so
+VNDK-core: libclang_rt.ubsan_standalone-riscv64-android.so
 
 LLNDK-private: ld-android.so
 LLNDK-private: libandroid_runtime_lazy.so
