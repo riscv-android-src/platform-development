@@ -33,7 +33,7 @@ EOF
 }
 
 additional_option=
-arches="arm64 arm x86_64 x86"
+arches="arm64 arm x86_64 x86 riscv64"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
